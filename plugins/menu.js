@@ -174,7 +174,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
              {
              urlButton: {
                displayText: 'Owner',
-               PhoneNumber: 'https://wa.me/6289509960601'
+               PhoneNumber: 'http://wa.me/6287873985625'
              }
 
            },
