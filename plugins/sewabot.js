@@ -11,24 +11,26 @@ let handler = async (m, { conn }) => {
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
   description: `
-⳹⍣𝐎𝐩𝐞𝐧 𝐉𝐚𝐬𝐚 𝐒𝐞𝐰𝐚 𝐁𝐎𝐓⍣⳼
+⳹⍣
+𝐎𝐩𝐞𝐧 𝐉𝐚𝐬𝐚 𝐒𝐞𝐰𝐚 𝐁𝐎𝐓⍣
+⳼
   
 ╔═══════════════╗
 ║ 〘༺ List Harga༻〙
-╠❥1 BULAN = 10.000
-╠❥2 BULAN = 15.000
-╠❥Permanen = 20.000
+╠❥1 BULAN = 5.000/25B
+╠❥2 BULAN = 10.000/50B
+╠❥Permanen = 15.000/75B
 ║ 
 ║ 〘༺ List Premium༻〙
-╠❥1 Bulan = 5.000
-╠❥2 Bulan = 10.000
-╠❥Permanen = 15.000
+╠❥1 Bulan = 5.000/25B
+╠❥2 Bulan = 10.000/50B
+╠❥Permanen = 15.000/75B
 ╚═══════════════╝
 Jika Berminat Chatt Owner Dibawah
 
 ☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}✵
 
-*Owner Deffri Gans*
+*Owner Riku Store*
 `,
   buttonText: 'Harga Sesuai Pasaran',
   listType: 2,
