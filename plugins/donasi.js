@@ -31,7 +31,7 @@ let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUp
                             hydratedFooterText:upt,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube',
+                                    displayText: 'Own Link Riku',
                                     url: linkyt
                                 }
                             }, {
