@@ -181,7 +181,7 @@ let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUp
                             hydratedFooterText: com.trim(),
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube',
+                                    displayText: 'TikTok',
                                     url: linkyt
                                 }
                             }, {
